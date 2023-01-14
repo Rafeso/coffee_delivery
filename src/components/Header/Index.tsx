@@ -1,6 +1,6 @@
 import { HeaderButton, HeaderButtonsContainer, HeaderContainer } from './styles'
 import Logo from '../../assets/Logo.svg'
-import { MapPin, ShoppingCart } from 'phosphor-react'
+import { GithubLogo, MapPin, ShoppingCart } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 import { useCart } from '../../hooks/useCart'
 
@@ -14,6 +14,15 @@ export function Header() {
         </NavLink>
 
         <HeaderButtonsContainer>
+          <HeaderButton variant="purple">
+            <a
+              href="https://github.com/Rafeso/coffe_delivery"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GithubLogo size={25} />
+            </a>
+          </HeaderButton>
           <HeaderButton variant="purple">
             <MapPin size={20} weight="fill" />
             Porto Alegre, RS
