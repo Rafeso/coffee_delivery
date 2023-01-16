@@ -55,6 +55,11 @@ export const InputStyled = styled.input`
   padding: 0 0.75rem;
   color: ${({ theme }) => theme.colors['base-text']};
 
+  :-webkit-autofill {
+    -webkit-text-fill-color: ${({ theme }) => theme.colors['base-text']};
+    -webkit-box-shadow: 0 0 0 100px #222526 inset;
+  }
+
   &::placeholder {
     color: ${({ theme }) => theme.colors['base-label']};
   }
