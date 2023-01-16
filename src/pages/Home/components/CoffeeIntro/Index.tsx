@@ -48,7 +48,6 @@ export function CoffeIntro() {
             />
           </BenefitsContainer>
         </div>
-
         <img src={CoffeImageIntro} alt="" />
       </IntroContent>
     </CoffeIntroContainer>
