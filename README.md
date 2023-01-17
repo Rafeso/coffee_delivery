@@ -54,8 +54,8 @@ O Coffee Delivery foi desenvolvido no segundo módulo da trilha como um desafio 
 <h1 align='center'> 🖌💻 Layout e Web </h1>
 
 <p align="center" style='display:flex; gap:1rem;'>
-  <img alt="Coffee Delivery Preview" title="#coffee_delivery" src="./.github/LightMode.png" width="50%">
-  <img alt="Coffee Delivery Preview" title="#coffee_delivery" src="./.github/Darkmode.png" width="50%">
+  <img alt="Coffee Delivery Preview" title="#coffee_delivery" src="./.github/LightMode.png" width="40%">
+  <img alt="Coffee Delivery Preview" title="#coffee_delivery" src="./.github/Darkmode.png" width="40%">
 </p>
 
 <div style="display: flex; gap: 0.5rem;">
