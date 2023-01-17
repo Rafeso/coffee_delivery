@@ -7,7 +7,7 @@ export function Coffes() {
   return (
     <CoffeesContainer className="container">
       <TitleText size="l" color="subtitle">
-        Nossos Cafés
+        Catálogo de Cafés
       </TitleText>
       <CoffeeList>
         {coffees.map((coffee) => (
