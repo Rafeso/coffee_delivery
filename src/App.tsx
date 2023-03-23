@@ -10,7 +10,6 @@ export function App() {
   return (
     <ThemeProvider
       theme={
-        window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: light)').matches
           ? defaultTheme
           : darkTheme
